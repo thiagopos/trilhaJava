@@ -58,7 +58,7 @@ Esta seção explorará o uso de arrays e ArrayLists, que são estruturas de dad
 Esta seção se aprofundará no trabalho com strings, que são sequências de caracteres que representam texto em Java.
 
 1. **Comparação de Strings**: Escreva um programa para comparar duas strings e determinar se elas são iguais usando o método `equals()`. Explore outros métodos de comparação como `equalsIgnoreCase()` para comparações que não diferenciam maiúsculas de minúsculas.
-2. **Comprimento da String**: Encontre o comprimento de uma determinada string usando o método `comprimento()`.
+2. **Comprimento da String**: Encontre o comprimento de uma determinada string usando o método `length()`.
 3. **Conversão de Caixa**: Implemente código para converter uma string para maiúsculas usando o método `toUpperCase()` e para minúsculas usando o método `toLowerCase()`.
 4. **Extração de Substring**: Extraia uma parte específica (substring) de uma string usando o método `substring()`. Experimente diferentes índices iniciais e finais para extrair várias substrings.
 5. **Contagem de Caracteres**: Escreva um programa para contar as ocorrências de um caractere específico dentro de uma string. Itere pela string e incremente um contador cada vez que o caractere desejado for encontrado.
@@ -86,12 +86,11 @@ Esta seção explorará herança e polimorfismo, que são conceitos-chave de POO
 Esta seção abordará estruturas de dados avançadas que fornecem maneiras eficientes de organizar e acessar dados para várias tarefas computacionais.
 
 1. **Implementação de Pilha**: Implemente uma estrutura de dados de pilha usando um array ou ArrayList. A pilha deve suportar operações como empilhar (para adicionar um elemento ao topo), desempilhar (para remover o elemento do topo), espiar (para visualizar o elemento do topo sem removê-lo) e estaVazia (para verificar se a pilha está vazia).
-2. **Conversão Infixa para Pós-fixa**: Escreva um programa para converter expressões infixas (por exemplo, "2 + 3 * 4") em expressões pós-fixas (por exemplo, "2 3 4 * +") usando uma pilha. Esta é uma aplicação comum de pilhas em compiladores e calculadoras.
-3. **Implementação de Fila**: Implemente uma estrutura de dados de fila usando uma lista encadeada ou um array. A fila deve suportar operações como enfileirar (para adicionar um elemento à parte traseira), desenfileirar (para remover um elemento da frente), espiar (para visualizar o elemento da frente sem removê-lo) e estaVazia (para verificar se a fila está vazia).
-4. **Simulação de Fila**: Simule um sistema de filas do mundo real, como uma fila de banco ou uma fila de impressora, usando sua implementação de fila.
-5. **Árvore de Busca Binária**: Crie uma estrutura de dados de árvore de busca binária e implemente operações como inserção, exclusão e pesquisa. Uma árvore de busca binária mantém uma ordem específica (filho esquerdo menor que pai, filho direito maior que pai), o que permite pesquisa e classificação eficientes.
-6. **Exploração de Árvores**: Explore diferentes tipos de árvores, como árvores AVL (árvores de busca binária autobalanceadas) e árvores B (usadas em bancos de dados e sistemas de arquivos). Entenda suas características e casos de uso.
-7. **Implementação de Tabela Hash**: Implemente uma estrutura de dados de tabela hash e experimente diferentes funções hash e técnicas de resolução de colisão (por exemplo, encadeamento separado, endereçamento aberto). Tabelas hash fornecem armazenamento e recuperação eficientes de chave-valor.
+2. **Implementação de Fila**: Implemente uma estrutura de dados de fila usando uma lista encadeada ou um array. A fila deve suportar operações como enfileirar (para adicionar um elemento à parte traseira), desenfileirar (para remover um elemento da frente), espiar (para visualizar o elemento da frente sem removê-lo) e estaVazia (para verificar se a fila está vazia).
+3. **Simulação de Fila**: Simule um sistema de filas do mundo real, como uma fila de banco ou uma fila de impressora, usando sua implementação de fila.
+4. **Árvore de Busca Binária**: Crie uma estrutura de dados de árvore de busca binária e implemente operações como inserção, exclusão e pesquisa. Uma árvore de busca binária mantém uma ordem específica (filho esquerdo menor que pai, filho direito maior que pai), o que permite pesquisa e classificação eficientes.
+5. **Exploração de Árvores**: Explore diferentes tipos de árvores, como árvores AVL (árvores de busca binária autobalanceadas) e árvores B (usadas em bancos de dados e sistemas de arquivos). Entenda suas características e casos de uso.
+6. **Implementação de Tabela Hash**: Implemente uma estrutura de dados de tabela hash e experimente diferentes funções hash e técnicas de resolução de colisão (por exemplo, encadeamento separado, endereçamento aberto). Tabelas hash fornecem armazenamento e recuperação eficientes de chave-valor.
 
 ## 10. Algoritmos de Busca e Classificação:
 
